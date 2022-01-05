@@ -11,11 +11,11 @@ header {
   align-items: center;
 }
 
-header h1 {
+.header h1 {
   color: #fff;
 }
 
-header select {
+.header select {
   height: 30px;
   width: 140px; 
   border-radius: 5px;
@@ -24,4 +24,10 @@ header select {
 
 section {
   padding: 1rem;
+}
+
+.contents{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
 }
